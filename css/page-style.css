@@ -2,6 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+* {
+    background-color: linen;
+}
+
 img{
     height: 500px;
     width: auto;
