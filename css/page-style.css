@@ -17,10 +17,12 @@ img{
 button{
     background-color: bisque;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     float: left;
     transition-duration: 0.4s;
+    width: 15%;
+    margin: 35px;
 }
 
 button:hover {
