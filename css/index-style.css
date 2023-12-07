@@ -16,6 +16,15 @@ button {
     font-weight: bold;
     color: black;
     background-color: bisque;
+    float: left;
+    transition-duration: 0.4s;
+    width: 33%;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(244, 189, 122);
+    color: rgb(0,0,0);
 }
 
 img {
@@ -24,4 +33,5 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px;
 }
