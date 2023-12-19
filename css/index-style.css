@@ -1,24 +1,27 @@
-* {
+body {
     font-family: 'Courier New', Courier, monospace;
-}
-
-* {
     background-color: linen;
+    
 }
 
-.head {
+.name {
     text-align: center;
     font-weight: bold;
+    font-size: 52px;
 }
 
 button {
-    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
     font-weight: bold;
     color: black;
     background-color: bisque;
     float: left;
+    justify-content: center;
     transition-duration: 0.4s;
     width: 33%;
+    padding: 7.5px;
+    border: 0;
 }
 
 button:hover {
@@ -27,11 +30,26 @@ button:hover {
     color: rgb(0,0,0);
 }
 
+button:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+button:last-child {
+    border-radius: 0px 8px 8px 0;
+}
+
+main.head {
+    background-color: rgb(244, 189, 122);
+    padding: 36px;
+    margin: -.55em;
+    border: 10px ridge black;
+}
+
 img {
     height: 500px;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 70px;
+    margin: 70px auto;
+    padding: 0;
+    border: 10px ridge black;
 }
